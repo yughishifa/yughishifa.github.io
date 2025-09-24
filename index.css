@@ -1,0 +1,30 @@
+.article-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+}
+
+#fotoyugi {
+    height: auto;
+    min-width: 1cm;
+    display: block;
+  }
+
+@media (max-width: 980px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  main.article-card {
+    display: block;
+  }
+
+  #fotoyugi {
+    height: auto;
+    width: 5cm;
+    margin: 0 auto;
+    display: block;
+  }
+}
